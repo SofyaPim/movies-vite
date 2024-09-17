@@ -1,0 +1,16 @@
+.genre-btn{
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px 0;
+    border-radius: 4px;
+    margin-bottom: 20px;
+   width: 140px;
+}
+button::hover{
+    background-color: #b5b5b5;
+}
+button:disabled{
+    border: 1px solid #b5b5b5;
+    color:#b5b5b5;
+    cursor: not-allowed;
+}
